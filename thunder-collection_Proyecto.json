@@ -1,0 +1,225 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Proyecto",
+    "dateExported": "2024-02-23T17:44:17.614Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "ea66e8bc-d871-43f2-a95e-25c962383583",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-23T13:41:25.896Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "9ebae14d-eea2-4288-ba72-481ee697f558",
+            "name": "Product",
+            "containerId": "",
+            "created": "2024-02-23T13:44:27.880Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9d068bb1-96d4-4d94-acf6-fbc6676353e5",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "ea66e8bc-d871-43f2-a95e-25c962383583",
+            "name": "save",
+            "url": "/category/saveC",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T13:41:32.807Z",
+            "modified": "2024-02-23T13:42:33.707Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Lacteos"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Leche"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a31120d0-4a0c-42e1-8ff6-b9cf301a44d1",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "ea66e8bc-d871-43f2-a95e-25c962383583",
+            "name": "get",
+            "url": "/category/getC",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T13:42:38.959Z",
+            "modified": "2024-02-23T13:42:49.741Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "73889433-ab85-48d8-a109-5128e550c750",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "ea66e8bc-d871-43f2-a95e-25c962383583",
+            "name": "update",
+            "url": "/category/updateC/65d8a03c1aa8374f9c559891",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T13:43:01.106Z",
+            "modified": "2024-02-23T13:43:42.768Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Juguetes"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "16041eba-621c-4813-85e8-492650c4e148",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "ea66e8bc-d871-43f2-a95e-25c962383583",
+            "name": "delete",
+            "url": "/category/deleteC/65d8a03c1aa8374f9c559891",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T13:43:55.009Z",
+            "modified": "2024-02-23T13:44:14.667Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6bfb1f39-b1d0-4824-bceb-451951d17871",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "9ebae14d-eea2-4288-ba72-481ee697f558",
+            "name": "save",
+            "url": "/product/save",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-23T13:44:57.186Z",
+            "modified": "2024-02-23T14:46:31.506Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Leche descremada"
+                    },
+                    {
+                        "name": "description",
+                        "value": "100% calidad"
+                    },
+                    {
+                        "name": "price",
+                        "value": "30"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "15"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65d8a0c91aa8374f9c559895"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "aa544634-fd21-497c-b2ff-c986ac59b2b3",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "9ebae14d-eea2-4288-ba72-481ee697f558",
+            "name": "delete",
+            "url": "/product/delete/65d8a1a31aa8374f9c55989a",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-02-23T13:47:47.808Z",
+            "modified": "2024-02-23T13:48:09.933Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ba03d4a6-45f4-4a03-a745-ad56921608f9",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "9ebae14d-eea2-4288-ba72-481ee697f558",
+            "name": "update",
+            "url": "/product/update/65d8a1de67e2f9fa620c1cee",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-02-23T13:48:28.952Z",
+            "modified": "2024-02-23T13:49:11.900Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Queso"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "168c2ff5-9076-4634-a7b0-8989c0c6c1b8",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "9ebae14d-eea2-4288-ba72-481ee697f558",
+            "name": "get",
+            "url": "/product/get",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-02-23T13:49:28.358Z",
+            "modified": "2024-02-23T13:49:39.315Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "78608906-ce37-439c-816f-36e3470deb58",
+            "colId": "79cd2f99-89eb-41e5-b8da-34d19ce84f69",
+            "containerId": "9ebae14d-eea2-4288-ba72-481ee697f558",
+            "name": "search",
+            "url": "/product/search",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-02-23T13:51:00.594Z",
+            "modified": "2024-02-23T14:01:07.136Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "Queso"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:3056"
+        }
+    }
+}
